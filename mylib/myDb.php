@@ -5,7 +5,7 @@ Class MyDb {
         $host = "localhost";
         $dbname = "db";
         $username = "root";
-        $password = "abc123";
+        $password = "1234abcd";
         //metode PDO
         $this->db = new PDO("mysql:host={$host};dbname={$dbname}", $username, $password);
     }
